@@ -38,7 +38,7 @@ export const exclusiveOffers = [
         image: exclusiveOfferCard2,
     },
     {
-        _id:1,
+        _id:3,
         title:'Luxurious Retreatment package',
         description:'Book 30 days in advance and save on your stay at any of our lusury Properties worldwide',
         priceOff: 40,
