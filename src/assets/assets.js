@@ -123,11 +123,12 @@ export const testimonials =[
     'updatedAt': '2022-01-01T00:00:00.000Z',
     '_v': 0
   }
+ 
 
   // room dummy data
   export const roomDummyData = [
     {
-       '_id': 1,
+       '_id': 132423,
        'hotel': hotelDummyData,
        'roomType':'Doulbe Bed',
        'pricePerNight':'400',
@@ -139,7 +140,7 @@ export const testimonials =[
        '_v': 0 
     },
     {
-        '_id': 2,
+        '_id': 245345,
         'hotel': hotelDummyData,
         'roomType': 'Single Bed',
         'pricePerNight': '250',
@@ -151,7 +152,7 @@ export const testimonials =[
         '__v': 0
       },
       {
-        '_id': 3,
+        '_id': 3562343,
         'hotel': hotelDummyData,
         'roomType': 'Suite',
         'pricePerNight': '800',
@@ -163,7 +164,7 @@ export const testimonials =[
         '__v': 0
       },
       {
-        '_id': 4,
+        '_id': 458004,
         'hotel': hotelDummyData,
         'roomType': 'Twin Bed',
         'pricePerNight': '300',
@@ -175,7 +176,7 @@ export const testimonials =[
         '__v': 0
       },
       {
-        '_id': 5,
+        '_id': 89234238,
         'hotel': hotelDummyData,
         'roomType': 'Family Room',
         'pricePerNight': '600',
@@ -187,7 +188,7 @@ export const testimonials =[
         '__v': 0
       },
       {
-        '_id': 6,
+        '_id': 32837,
         'hotel': hotelDummyData,
         'roomType': 'Deluxe King Room',
         'pricePerNight': '550',
@@ -199,7 +200,7 @@ export const testimonials =[
         '__v': 0
       },
       {
-        '_id': 7,
+        '_id': 3908427,
         'hotel': hotelDummyData,
         'roomType': 'Executive Suite',
         'pricePerNight': '1000',
@@ -211,7 +212,7 @@ export const testimonials =[
         '__v': 0
       },
       {
-        '_id': 8,
+        '_id': 483928,
         'hotel': hotelDummyData,
         'roomType': 'Economy Room',
         'pricePerNight': '150',
@@ -223,7 +224,7 @@ export const testimonials =[
         '__v': 0
       },
       {
-        '_id': 9,
+        '_id': 234023,
         'hotel': hotelDummyData,
         'roomType': 'Penthouse Suite',
         'pricePerNight': '2000',
@@ -235,7 +236,7 @@ export const testimonials =[
         '__v': 0
       },
       {
-        '_id': 10,
+        '_id': 10234328,
         'hotel': hotelDummyData,
         'roomType': 'Studio Apartment',
         'pricePerNight': '450',
