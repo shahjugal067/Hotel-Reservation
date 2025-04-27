@@ -10,6 +10,8 @@ import Footer from './components/Footer'
 import AllRooms from './pages/AllRooms'
 import RoomDetails from './pages/RoomDetails'
 import MyBookings from './pages/MyBookings'
+import HotelReg from './components/HotelReg'
+import Layout from './pages/hotelOwner/Layout'
 
 
 
@@ -20,6 +22,7 @@ const App = () => {
   return (
     <div>
       {!isOwnerPath && <Header/> }
+      {false && <HotelReg/>}
       <div>
       <Routes>
         
@@ -29,6 +32,9 @@ const App = () => {
         <Route path='/rooms' element={<AllRooms/>} />
         <Route path='/rooms/:id' element={<RoomDetails/>} />
         <Route path='/my-bookings' element={<MyBookings/>} />
+        <Route path='/owner' element={<Layout/>}>
+          
+        </Route>
 
       
     </Routes>
